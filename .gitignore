@@ -1,0 +1,10 @@
+server/.venv/
+server/*.pyc
+server/__pycache__/
+server/.pytest_cache/
+server/.coverage
+server/htmlcov/
+
+client/node_modules
+client/build
+.idea

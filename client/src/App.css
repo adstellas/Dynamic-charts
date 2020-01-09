@@ -1,0 +1,15 @@
+.App {
+  padding: 20px 80px;
+}
+
+.App-chart-legend {
+  margin: 20px 0;
+}
+
+.App-title {
+  margin: 20px 0;
+}
+
+.App-chart-legend div {
+  margin: 10px 0;
+}
