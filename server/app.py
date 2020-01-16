@@ -6,8 +6,8 @@ from time import time_ns
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET'])
-@app.route('/<name>', methods=['GET'])
+@app.route('/models', methods=['GET'])
+@app.route('/models/<name>', methods=['GET'])
 def chart_model(name=None):
     if request.method == 'GET':
         response_headers = {'Access-Control-Allow-Origin': 'http://localhost:3000'}

@@ -1,6 +1,9 @@
 .App {
   padding: 20px 80px;
 }
+.App-error {
+  color: #dc3545;
+}
 
 .App-chart-legend {
   margin: 20px 0;
