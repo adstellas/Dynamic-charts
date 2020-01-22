@@ -1,0 +1,6 @@
+.git
+.gitignore
+.dockerignore
+server/.venv
+client/node_modules
+client/build
